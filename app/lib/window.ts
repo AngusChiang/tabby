@@ -65,7 +65,6 @@ export class Window {
                 nodeIntegration: true,
                 preload: path.join(__dirname, 'sentry.js'),
                 backgroundThrottling: false,
-                enableRemoteModule: true,
                 contextIsolation: false,
             },
             maximizable: true,
