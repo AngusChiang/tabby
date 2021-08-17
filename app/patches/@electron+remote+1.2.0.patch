@@ -1,0 +1,18 @@
+diff --git a/node_modules/@electron/remote/dist/src/main/server.js b/node_modules/@electron/remote/dist/src/main/server.js
+index 9400c15..6b95747 100644
+--- a/node_modules/@electron/remote/dist/src/main/server.js
++++ b/node_modules/@electron/remote/dist/src/main/server.js
+@@ -288,11 +288,9 @@ const unwrapArgs = function (sender, frameId, contextId, args) {
+     return args.map(metaToValue);
+ };
+ const isRemoteModuleEnabledImpl = function (contents) {
+-    const webPreferences = contents.getLastWebPreferences() || {};
+-    return webPreferences.enableRemoteModule != null ? !!webPreferences.enableRemoteModule : false;
++return true;
+ };
+-const isRemoteModuleEnabledCache = new WeakMap();
+-const isRemoteModuleEnabled = function (contents) {
++const isRemoteModuleEnabledCache = new WeakMap(); const isRemoteModuleEnabled = function (contents) {
+     if (!isRemoteModuleEnabledCache.has(contents)) {
+         isRemoteModuleEnabledCache.set(contents, isRemoteModuleEnabledImpl(contents));
+     }

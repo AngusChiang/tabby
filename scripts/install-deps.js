@@ -14,10 +14,12 @@ log.info('deps', 'app')
 
 sh.cd('app')
 sh.exec(`${npx} yarn install --force`)
+sh.exec(`${npx} patch-package`)
 sh.cd('..')
 
 sh.cd('web')
 sh.exec(`${npx} yarn install --force`)
+sh.exec(`${npx} patch-package`)
 sh.cd('..')
 
 vars.allPackages.forEach(plugin => {
