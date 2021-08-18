@@ -2,7 +2,7 @@ name: Package-Build
 on: [push, pull_request]
 jobs:
   Lint:
-    runs-on: macos-11.0
+    runs-on: macos-11
 
     steps:
     - name: Checkout
