@@ -2095,10 +2095,10 @@ node-gyp@^5.0.2, node-gyp@^5.1.0:
     tar "^4.4.12"
     which "^1.3.1"
 
-"node-pty@npm:@tabby-gang/node-pty@0.11.0-beta.102":
-  version "0.11.0-beta.102"
-  resolved "https://registry.yarnpkg.com/@tabby-gang/node-pty/-/node-pty-0.11.0-beta.102.tgz#b301e347077b68f5e8053e8a073c113e3e0f8d33"
-  integrity sha512-avxMJr3llJC0yP+33SDAtNhZOzJvQNFlTkgDv3tVnvaG3lr2Se/bTT3nmbbN+V9CjA76lvkmgSuCuqjC3KtHtw==
+"node-pty@npm:@tabby-gang/node-pty@0.11.0-beta.103":
+  version "0.11.0-beta.103"
+  resolved "https://registry.yarnpkg.com/@tabby-gang/node-pty/-/node-pty-0.11.0-beta.103.tgz#6d41c01aa233569073666c699b467c22b3518f12"
+  integrity sha512-yJIkCAY+u0j5jTiFjE8CLVWoJgNcIgL/5mKwGf22pcwW0LNjzgRxOyBDF+rZlORULocEo3bVutOKWVhi2PLC+w==
   dependencies:
     nan "^2.14.0"
 
