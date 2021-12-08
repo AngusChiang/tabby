@@ -420,10 +420,10 @@ unbox-primitive@^1.0.0:
     has-symbols "^1.0.2"
     which-boxed-primitive "^1.0.2"
 
-utils-decorators@^1.8.3:
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/utils-decorators/-/utils-decorators-1.10.0.tgz#eb9208ccbb7fbb7488d5d04b2611df62c2fcaf4d"
-  integrity sha512-wlNRoPCFdxSReLfmhNqkZsg8FqsKu9d5trdSELxBZCtmK4KPtSidxRg24+bpZQjEBBF0hUIQEFz2uM7sBDVG2Q==
+utils-decorators@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/utils-decorators/-/utils-decorators-2.0.0.tgz#b388133e3ec1cd70a663addaacdc799a5857e6c4"
+  integrity sha512-Ci0NDlsaJeUcIMPOF0M/ehzlIBlmBOc3rWY/achxZ3aqc0UHqSAV4CDMlReOJ6bTu3CNB9Jp2R0hNGvmjW3Nwg==
   dependencies:
     tinyqueue "^2.0.3"
 
